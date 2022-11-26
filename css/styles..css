@@ -1,8 +1,10 @@
 :root {
-    
 }
 
 .body {
+    width: 1440px;
+        height: 2593px;
+        background: #FFFFFF;
 
 }
 
@@ -27,7 +29,51 @@ a {
 
 /* header */
 .header {
-    background-color: aqua;
+    width: 1440px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        background-color: cadetblue;
+}
+
+.nav-href {
+    position: absolute;
+        width: 261px;
+        height: 24px;
+        left: 348px;
+        top: 24px;
+}
+
+button {
+    background-color: #4D5AE5;
+    text-align: center;
+
+    
+}
+.mailto-tel {
+    
+}
+
+.mailto {
+    position: absolute;
+    width: 153px;
+        height: 24px;
+        left: 940px;
+        top: 24px;
+        color: #434455;
+
+}
+
+.tel {
+    position: absolute;
+    width: 151px;
+        height: 24px;
+        left: 1133px;
+        top: 24px;
+        color: #434455;
+    font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
 }
 
 .logo {
@@ -41,18 +87,38 @@ span {
 /* main */
 
 .section-block {
+    position: absolute;
+        width: 1440px;
+        height: 603px;
+        left: 0px;
+        top: 72px;
     background-color: burlywood;
 }
 
 .section1 {
+    position: absolute;
+        width: 1128px;
+        height: 104px;
+        left: 156px;
+        top: 795px;
     background-color: coral;
 }
 
 .section2 {
+    position: absolute;
+        width: 1128px;
+        height: 412px;
+        left: 156px;
+        top: 1019px;
     background-color: darkmagenta;
 }
 
 .section3 {
+    position: absolute;
+        width: 1440px;
+        height: 732px;
+        left: 0px;
+        top: 1551px;
     background-color: chocolate;
 }
 
@@ -60,6 +126,11 @@ span {
 
 /* footer */
 .footer {
+    position: absolute;
+        width: 1440px;
+        height: 310px;
+        left: 0px;
+        top: 2283px;
     background-color: chartreuse;
 }
 
