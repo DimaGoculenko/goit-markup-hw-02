@@ -1,17 +1,65 @@
-body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+:root {
+    
+}
+
+.body {
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 
-header {
-background-color: yellow;
+/* header */
+.header {
+    background-color: aqua;
 }
 
-footer {
-    background-color: #2E2F42;
+.logo {
+
 }
 
 span {
-    color: #4D5AE5;
+    color: red;
 }
+
+/* main */
+
+.section-block {
+    background-color: burlywood;
+}
+
+.section1 {
+    background-color: coral;
+}
+
+.section2 {
+    background-color: darkmagenta;
+}
+
+.section3 {
+    background-color: chocolate;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: chartreuse;
+}
+
