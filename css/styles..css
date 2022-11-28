@@ -38,10 +38,7 @@ a:active {
 
 /* header */
 .page-header {
-    /* position: absolute;
-        width: 1440px;
-        height: 72px;
-        left: 0px; */
+
 }
 
 /* логотип */
@@ -84,11 +81,6 @@ span { color: var(--primary-text-color);}
 
 /* main для index.html*/
 .section-block {
-    /* position: absolute;
-    width: 1440px;
-    height: 603px;
-    margin-top: 72px;
-    left: 0px; */
     background-color: #2E2F42;
 }
 
@@ -103,56 +95,32 @@ h1 {
 /* кнопка  */
 .main-button {
     background-color: var(--primary-text-color);
-    /* text-align: center;
-    cursor: pointer;
-    border-radius: 4px;
-    padding: 16px 32px;
-    gap: 10px; */
+    color: var(--primary-fon-color);
     margin: 48px 635px 192px 645px;
 }
 
-button:hover,
-button:focus {
-    color: gba(0, 0, 0, 0.15);
+.main-button:hover,
+.main-button:focus {
+    color: rgba(0, 0, 0, 0.15);;
 }
 
 /* < !-- Section 1 --> */
 .section1 {
-    /* position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 795px; */
     background-color: coral;
 }
 
 /* < !-- Section 2 --> */
 .section2 {
-    /* position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1019px; */
     background-color: darkmagenta;
 }
 
 /* < !-- Section 3 --> */
 .section3 {
-    /* position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1551px; */
     background-color: chocolate;
 }
 
 /* footer */
 .footer {
-    /* position: absolute;
-    width: 1440px;
-    height: 310px;
-    left: 0px;
-    top: 2283px; */
     background-color: #2E2F42;
 }
 
