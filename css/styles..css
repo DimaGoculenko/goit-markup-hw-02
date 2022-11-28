@@ -2,9 +2,13 @@
     --primary-text-color: #4d5ae5;
     --primary-fon-color: #FFFFFF;
 }
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-    position: relative;
+    position: absolute;
     width: 1440px;
     height: 2593px;
     font-family: 'Roboto';
@@ -38,7 +42,9 @@ a:active {
 
 /* header */
 .page-header {
-
+    background-color: yellow;
+    width: 1440px;
+    height: 72px;
 }
 
 /* логотип */
@@ -82,6 +88,9 @@ span { color: var(--primary-text-color);}
 /* main для index.html*/
 .section-block {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 603px;
+    margin-top: 72px; 
 }
 
 h1 {
@@ -93,30 +102,52 @@ h1 {
 }
 
 /* кнопка  */
-.main-button {
+
+button {
     background-color: var(--primary-text-color);
     color: var(--primary-fon-color);
-    margin: 48px 635px 192px 645px;
 }
 
-.main-button:hover,
-.main-button:focus {
-    color: rgba(0, 0, 0, 0.15);;
+button:hover,
+button:focus {
+    color: #00000026;;
+}
+
+.main-button {
+    margin: 48px 635px 192px 645px;
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 32px;
+        gap: 10px;
 }
 
 /* < !-- Section 1 --> */
 .section1 {
-    background-color: coral;
+    background-color: rgb(178, 152, 224);
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    top: 795px;
 }
 
 /* < !-- Section 2 --> */
 .section2 {
-    background-color: darkmagenta;
+    width: 1128px;
+    height: 412px;
+    left: 156px;
+    top: 1019px;
+    text-align: center;
 }
 
 /* < !-- Section 3 --> */
 .section3 {
-    background-color: chocolate;
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1551px;
+    text-align: center;
 }
 
 /* footer */
@@ -153,8 +184,12 @@ h1 {
 
 
 /* кнопки button  */
-.filters-button {
-    background-color: var(--primary-text-color);
+.button-portfolio {
     text-align: center;
     cursor: pointer;
+    margin-top: 84px;
+    /* color: #E7E9FC; */
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 24px;
 }
