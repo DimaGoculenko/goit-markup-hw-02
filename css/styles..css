@@ -1,136 +1,192 @@
 :root {
+    --primary-text-color: #4d5ae5;
+    --primary-fon-color: #FFFFFF;
 }
 
-.body {
+body {
+    /* position: relative;
     width: 1440px;
-        height: 2593px;
-        background: #FFFFFF;
-
+    height: 2593px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
+    background-color: var(--primary-fon-color);
 }
 
-h1 {
-    text-align: center;
-}
+h2 {text-align: center;}
 
-h2 {
-    text-align: center;
-}
-
-li {
-    list-style-type: none;
-    display: inline-block;
-    
-}
+li {list-style-type: none;
+    display: inline-block;}
 
 a {
     text-decoration: none;
+    color: #434455;
 }
 
+/* hover/:focus/:active */
+a:hover,
+a:focus {
+    color: var(--primary-text-color);
+}
+
+a:active {
+    color: rgba(77, 90, 229, 0.2);
+}
 
 /* header */
-.header {
-    width: 1440px;
+.page-header {
+    /* position: absolute;
+        width: 1440px;
         height: 72px;
-        left: 0px;
-        top: 0px;
-        background-color: cadetblue;
+        left: 0px; */
 }
 
+/* логотип */
+.logo-header {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 24px 1169px 24px 156px;
+}
+
+span { color: var(--primary-text-color);}
+
+/* ссылки на страницы */
 .nav-href {
     position: absolute;
-        width: 261px;
-        height: 24px;
-        left: 348px;
-        top: 24px;
+    margin: 24px 831px 24px 348px;
 }
 
-button {
-    background-color: #4D5AE5;
-    text-align: center;
+/* подсветка текушей страницы */
+.nav-corrent { color: var(--primary-text-color)} 
 
-    
-}
-.mailto-tel {
-    
-}
-
-.mailto {
+/* меил и телефон */
+.contact-mail {
     position: absolute;
     width: 153px;
-        height: 24px;
-        left: 940px;
-        top: 24px;
-        color: #434455;
-
+    height: 24px;
+    left: 940px;
+    top: 24px;
 }
 
-.tel {
+.contact-tel {
+  /*  сделать тень телефон #000000 */
     position: absolute;
     width: 151px;
-        height: 24px;
-        left: 1133px;
-        top: 24px;
-        color: #434455;
-    font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-.logo {
-
-}
-
-span {
-    color: red;
-}
-
-/* main */
-
+/* main для index.html*/
 .section-block {
-    position: absolute;
-        width: 1440px;
-        height: 603px;
-        left: 0px;
-        top: 72px;
-    background-color: burlywood;
+    /* position: absolute;
+    width: 1440px;
+    height: 603px;
+    margin-top: 72px;
+    left: 0px; */
+    background-color: #2E2F42;
 }
 
+h1 {
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: var(--primary-fon-color);
+    margin: 192px 474px 291px 474px;
+}
+
+/* кнопка  */
+.main-button {
+    background-color: var(--primary-text-color);
+    /* text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px; */
+    margin: 48px 635px 192px 645px;
+}
+
+button:hover,
+button:focus {
+    color: gba(0, 0, 0, 0.15);
+}
+
+/* < !-- Section 1 --> */
 .section1 {
-    position: absolute;
-        width: 1128px;
-        height: 104px;
-        left: 156px;
-        top: 795px;
+    /* position: absolute;
+    width: 1128px;
+    height: 104px;
+    left: 156px;
+    top: 795px; */
     background-color: coral;
 }
 
+/* < !-- Section 2 --> */
 .section2 {
-    position: absolute;
-        width: 1128px;
-        height: 412px;
-        left: 156px;
-        top: 1019px;
+    /* position: absolute;
+    width: 1128px;
+    height: 412px;
+    left: 156px;
+    top: 1019px; */
     background-color: darkmagenta;
 }
 
+/* < !-- Section 3 --> */
 .section3 {
-    position: absolute;
-        width: 1440px;
-        height: 732px;
-        left: 0px;
-        top: 1551px;
+    /* position: absolute;
+    width: 1440px;
+    height: 732px;
+    left: 0px;
+    top: 1551px; */
     background-color: chocolate;
 }
 
-
-
 /* footer */
 .footer {
-    position: absolute;
-        width: 1440px;
-        height: 310px;
-        left: 0px;
-        top: 2283px;
-    background-color: chartreuse;
+    /* position: absolute;
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    top: 2283px; */
+    background-color: #2E2F42;
 }
 
+/* логотип */
+.logo-footer {
+    color: #F4F4FD;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 100px 1169px 16px 156px;
+}
+
+.text {
+    color:#E7E9FC;
+    font-weight: 400px;
+    letter-spacing: 0.02em; 
+    margin: 138px 1020px 100px 156px;
+}
+
+
+
+
+/* main для portfolio.html*/
+/* < !-- Section 1 --> */
+
+
+/* < !-- Section 2 --> */
+
+
+ /* < !-- Section 3 --> */
+
+
+/* кнопки button  */
+.filters-button {
+    background-color: var(--primary-text-color);
+    text-align: center;
+    cursor: pointer;
+}
