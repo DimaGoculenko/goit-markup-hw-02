@@ -4,8 +4,8 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 
 body {
@@ -22,9 +22,12 @@ body {
 }
 
 
-.li-href {
+.list,
+.contact-mail,
+.contact-tel {
     list-style-type: none;
-    display: inline-block;}
+    display: inline-block;
+}
 
 a {
     text-decoration: none;
@@ -71,6 +74,7 @@ span { color: var(--primary-text-color);}
 
 
 /* main для index.html*/
+
 .section-block {
     /* background-color: #2E2F42; */
 }
@@ -111,6 +115,7 @@ button:focus {
 
 /* < !-- Section 3 --> */
 .section3 {
+    text-align: center;
     background-color: #F4F4FD;
     
 }
