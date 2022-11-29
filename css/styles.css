@@ -45,7 +45,9 @@ a:active {
     color: rgba(77, 90, 229, 0.2);
 }
 
-p {
+
+/* slogan --- p */
+.slogan {
     width: 264px;
     height: 72px;
 }
@@ -143,6 +145,8 @@ button:focus {
 .text-footer {
     color: #090a17;
     margin-left: 156px;
+    width: 264px;
+    height: 110px;
 }
 
 
