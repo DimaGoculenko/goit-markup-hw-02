@@ -1,7 +1,8 @@
 :root {
-    --primary-text-color: #4d5ae5;
+    --primary-text-color: #4D5AE5;
     --primary-fon-color: #FFFFFF;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -20,9 +21,9 @@ body {
     background-color: var(--primary-fon-color);
 }
 
-h2 {text-align: center;}
 
-li {list-style-type: none;
+.li-href {
+    list-style-type: none;
     display: inline-block;}
 
 a {
@@ -41,25 +42,19 @@ a:active {
 }
 
 /* header */
-.page-header {
-    background-color: yellow;
-    width: 1440px;
-    height: 72px;
+.header {
+
 }
 
 /* логотип */
 .logo-header {
-    font-size: 18px;
-    line-height: 21px;
-    margin: 24px 1169px 24px 156px;
+    
 }
 
 span { color: var(--primary-text-color);}
 
 /* ссылки на страницы */
 .nav-href {
-    position: absolute;
-    margin: 24px 831px 24px 348px;
 }
 
 /* подсветка текушей страницы */
@@ -67,109 +62,72 @@ span { color: var(--primary-text-color);}
 
 /* меил и телефон */
 .contact-mail {
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
 }
 
 .contact-tel {
   /*  сделать тень телефон #000000 */
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-    font-size: 16px;
-    line-height: 24px;
 }
+
+
 
 /* main для index.html*/
 .section-block {
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 603px;
-    margin-top: 72px; 
+    /* background-color: #2E2F42; */
 }
 
-h1 {
+.title {
+    text-align: center;
     font-size: 56px;
     line-height: 60px;
-    text-align: center;
-    color: var(--primary-fon-color);
-    margin: 192px 474px 291px 474px;
+    /* color: var(--primary-fon-color); */
 }
 
 /* кнопка  */
-
 button {
-    background-color: var(--primary-text-color);
-    color: var(--primary-fon-color);
+    background-color: var(--primary-fon-color);
+    color: var(--primary-text-color);
 }
 
 button:hover,
 button:focus {
-    color: #00000026;;
+    background-color: var(--primary-text-color);
+    color: var(--primary-fon-color);
 }
 
 .main-button {
-    margin: 48px 635px 192px 645px;
-    display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 16px 32px;
-        gap: 10px;
 }
 
 /* < !-- Section 1 --> */
+.title-text {
+    text-align: center;
+}
+
 .section1 {
-    background-color: rgb(178, 152, 224);
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 795px;
 }
 
 /* < !-- Section 2 --> */
 .section2 {
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1019px;
-    text-align: center;
 }
 
 /* < !-- Section 3 --> */
 .section3 {
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1551px;
-    text-align: center;
+    
 }
 
 /* footer */
 .footer {
-    background-color: #2E2F42;
+    
 }
 
 /* логотип */
 .logo-footer {
-    color: #F4F4FD;
-    font-size: 18px;
-    line-height: 24px;
-    margin: 100px 1169px 16px 156px;
+
 }
 
 .text {
-    color:#E7E9FC;
-    font-weight: 400px;
-    letter-spacing: 0.02em; 
-    margin: 138px 1020px 100px 156px;
+    color: #090a17;
 }
-
 
 
 
@@ -180,16 +138,10 @@ button:focus {
 /* < !-- Section 2 --> */
 
 
- /* < !-- Section 3 --> */
+/* < !-- Section 3 --> */
 
 
 /* кнопки button  */
 .button-portfolio {
-    text-align: center;
-    cursor: pointer;
-    margin-top: 84px;
-    /* color: #E7E9FC; */
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 24px;
+
 }
