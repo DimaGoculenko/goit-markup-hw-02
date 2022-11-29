@@ -96,6 +96,7 @@ span { color: var(--primary-text-color);}
 button {
     background-color: var(--primary-fon-color);
     color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 button:hover,
