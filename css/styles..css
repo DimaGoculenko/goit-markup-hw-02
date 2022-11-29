@@ -1,6 +1,7 @@
 :root {
     --primary-text-color: #4D5AE5;
     --primary-fon-color: #FFFFFF;
+    --color-section-logo: #F4F4FD;
 }
 
 * {
@@ -116,7 +117,7 @@ button:focus {
 /* < !-- Section 3 --> */
 .section3 {
     text-align: center;
-    background-color: #F4F4FD;
+    background-color: var(--color-section-logo);
     
 }
 
@@ -127,10 +128,10 @@ button:focus {
 
 /* логотип */
 .logo-footer {
-
+    color: var(--color-section-logo);
 }
 
-.text {
+.text-footer {
     color: #090a17;
 }
 
