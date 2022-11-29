@@ -5,8 +5,8 @@
 }
 
 * {
-    /* padding: 0;
-    margin: 0; */
+    /* padding: 0; */
+    /* margin: 0; */
 }
 
 body {
@@ -47,7 +47,7 @@ a:active {
 
 p {
     width: 264px;
-        height: 72px;
+    height: 72px;
 }
 
 /* header */
@@ -86,9 +86,9 @@ span { color: var(--primary-text-color);}
 }
 
 .title {
-    text-align: center;
     font-size: 56px;
     line-height: 60px;
+    margin-left: 474px;
     /* color: var(--primary-fon-color); */
 }
 
@@ -105,18 +105,22 @@ button:focus {
 }
 
 .main-button {
+    margin-left: 635px;
 }
 
 /* < !-- Section 1 --> */
 .title-text {
     text-align: center;
-}
+    }
 
 .section1 {
+    margin-left: 156px;
 }
 
 /* < !-- Section 2 --> */
 .section2 {
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 /* < !-- Section 3 --> */
@@ -132,10 +136,12 @@ button:focus {
 /* логотип */
 .logo-footer {
     color: var(--color-section-logo);
+    margin-left: 156px;
 }
 
 .text-footer {
     color: #090a17;
+    margin-left: 156px;
 }
 
 
