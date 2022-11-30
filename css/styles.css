@@ -117,10 +117,6 @@ button:focus {
 }
 
 /* < !-- Section 1 --> */
-.title-text {
-    text-align: center;
-    }
-
 .section1 {
     margin-left: 156px;
 }
@@ -128,7 +124,10 @@ button:focus {
 /* < !-- Section 2 --> */
 .section2 {
     margin-left: 156px;
-    /* margin-right: 156px; */
+}
+
+.title-text {
+    text-align: center;
 }
 
 /* < !-- Section 3 --> */
