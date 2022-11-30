@@ -46,8 +46,6 @@ a:active {
 /* slogan --- p */
 .slogan {
     color: var(--color-mail-tel-p-text);
-    width: 264px;
-    height: 72px;
 }
 
 /* header */
@@ -96,7 +94,6 @@ span { color: var(--primary-text-color);}
     color: var(--primary-fon-color);
     font-size: 56px;
     line-height: 60px;
-    margin-left: 474px;
 }
 
 /* кнопка  */
@@ -113,12 +110,10 @@ button:focus {
 }
 
 .main-button {
-    margin-left: 635px;
 }
 
 /* < !-- Section 1 --> */
 .section1 {
-    margin-left: 156px;
 }
 
 /* < !-- Section 2 --> */
@@ -148,14 +143,10 @@ button:focus {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    margin-left: 156px;
 }
 
 .text-footer {
     color: var(--color-footer-text);
-    margin-left: 156px;
-    width: 264px;
-    height: 110px;
 }
 
 
@@ -172,5 +163,4 @@ button:focus {
 
 /* кнопки button  */
 .button-portfolio {
-    margin-left: 409px;
 }
