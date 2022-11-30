@@ -172,6 +172,5 @@ button:focus {
 
 /* кнопки button  */
 .button-portfolio {
-    text-align: center;
-
+    margin-left: 409px;
 }
