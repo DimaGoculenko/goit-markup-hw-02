@@ -123,11 +123,11 @@ button:focus {
 
 /* < !-- Section 2 --> */
 .section2 {
-    margin-left: 156px;
+    text-align: center;
 }
 
 .title-text {
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* < !-- Section 3 --> */
