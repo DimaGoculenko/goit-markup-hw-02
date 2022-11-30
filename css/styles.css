@@ -18,6 +18,7 @@ body {
     background-color: var(--primary-fon-color);
 }
 
+/*  убрал точки и в одну линию (горизонтально) */
 .link,
 .contact-mail,
 .contact-tel,
@@ -63,6 +64,7 @@ a:active {
     
 }
 
+/* цвет логотипа Web */
 span { color: var(--primary-text-color);}
 
 /* ссылки на страницы */
@@ -85,11 +87,11 @@ span { color: var(--primary-text-color);}
 
 
 /* main для index.html*/
-
 .section-block {
     background-color: var(--color-body-text);
 }
 
+/* заголовок H1 */
 .title {
     color: var(--primary-fon-color);
     font-size: 56px;
@@ -126,7 +128,7 @@ button:focus {
 /* < !-- Section 2 --> */
 .section2 {
     margin-left: 156px;
-    margin-right: 156px;
+    /* margin-right: 156px; */
 }
 
 /* < !-- Section 3 --> */
