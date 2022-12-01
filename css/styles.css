@@ -24,7 +24,6 @@ body {
 .contact-tel,
 .list {
     list-style-type: none;
-    display: inline-block;
 }
 
 a {
@@ -46,6 +45,7 @@ a:active {
 /* slogan --- p */
 .slogan {
     color: var(--color-mail-tel-p-text);
+    font-weight: 400;
 }
 
 /* header */
@@ -75,10 +75,12 @@ span { color: var(--primary-text-color);}
 /* меил и телефон */
 .contact-mail {
     color: var(--color-mail-tel-p-text);
+    font-weight: 400;
 }
 
 .contact-tel {
     color: var(--color-mail-tel-p-text);
+    font-weight: 400;
   /*  сделать тень телефон #000000 */
 }
 
@@ -101,6 +103,7 @@ button {
     background-color: var(--primary-fon-color);
     color: var(--primary-text-color);
     cursor: pointer;
+    font-weight: 400;
 }
 
 button:hover,
