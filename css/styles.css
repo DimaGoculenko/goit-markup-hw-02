@@ -59,7 +59,7 @@ a:active {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    
+    text-transform: uppercase;
 }
 
 /* цвет логотипа Web */
@@ -100,16 +100,16 @@ span { color: var(--primary-text-color);}
 
 /* кнопка  */
 button {
-    background-color: var(--primary-fon-color);
-    color: var(--primary-text-color);
+    background-color: var(--primary-text-color);
+    color: var(--primary-fon-color);
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 button:hover,
 button:focus {
-    background-color: var(--primary-text-color);
-    color: var(--primary-fon-color);
+    background-color: var(--primary-fon-color);
+    color: var(--primary-text-color);
 }
 
 .main-button {
@@ -146,6 +146,7 @@ button:focus {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    text-transform: uppercase;
 }
 
 .text-footer {
